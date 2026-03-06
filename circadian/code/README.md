@@ -1,18 +1,19 @@
-## Plot (a)
+## Plot (a) and (c)
 1. To solve ODE system for set of input parameters:
+##Vary this value "50" to adjust binary string lengths, as in Plot (c)
 python3 run_solutions.py \
     --input-dir /mnt/users/osullivans/circ/oct24/t0to50/parameters \
     --tf 50 \
-    --num_chunks 50 \ ##Vary this value to adjust lengths, as in Plot (c)
+    --num_chunks 50 \ 
     --n_steps 49999 \
 
-2. Binarize output curves
+3. Binarize output curves
 python3 2bin.py </solutions_out> </binary_out>
 
-3. Calculate Lempel-Ziv Complexity
+4. Calculate Lempel-Ziv Complexity
 python3 lz.py </binary_out> </lz_values>
 
-4. Store results in a table
+5. Store results in a table
 python3 make_any_table.py \
 --params-dir <parameters_directory>
 --binary-dir <binaries_directory>
