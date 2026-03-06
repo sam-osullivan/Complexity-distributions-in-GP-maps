@@ -3,7 +3,7 @@
 python3 run_solutions.py \
     --input-dir /mnt/users/osullivans/circ/oct24/t0to50/parameters \
     --tf 50 \
-    --num_chunks 50 \
+    --num_chunks 50 \ ##Vary this value to adjust lengths, as in Plot (c)
     --n_steps 49999 \
 
 2. Binarize output curves
