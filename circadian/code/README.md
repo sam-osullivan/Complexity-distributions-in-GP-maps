@@ -42,10 +42,12 @@ python3 mutate_params.py --input G4/0param --output G4/1param --seed 4001
 python3 mutate_params.py --input G5/0param --output G1/5param --seed 5001
 (repeat up to 20 parameters)
 
-OR python3 sequential_mutations.py --base-dir . --start-generation 1 --max-generation 20
+    OR python3 sequential_mutations.py --base-dir . --start-generation 1 --max-generation 20
 
-python3 run_all_solutions.py --base-dir .
+    python3 run_all_solutions.py --base-dir .
 
-python3 binarize_all_solutions.py --base-dir .
+    python3 binarize_all_solutions.py --base-dir .
 
-python3 calculate_all_lz_complexities.py --base-dir . 
+    python3 calculate_all_lz_complexities.py --base-dir .
+
+    python3 generate_all_data_tables.py --base-dir <base_dir>
