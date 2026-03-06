@@ -1,5 +1,5 @@
-## Plot (a) and (c)
-1. To solve ODE system for set of input parameters: (Vary length value "50" to adjust binary string lengths, as in Plot (c))
+## Code for Plot (a) (b) and (c)
+1. To solve ODE system for set of input parameters: (Vary length value "50" to adjust binary string lengths, as in Plot (c). Vary number of samples N to produce Plot (b))
 
 python3 run_solutions.py \
     --input-dir /mnt/users/osullivans/circ/oct24/t0to50/parameters \
