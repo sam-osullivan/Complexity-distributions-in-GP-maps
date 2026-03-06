@@ -17,4 +17,4 @@ python3 make_rand_table.py
 5. sample P-distribution and compile into a table:
 python3 sample0mutbinaries.py
 &
-python3 IPYNB_plot.py
+python3 make_0mut_table.py
