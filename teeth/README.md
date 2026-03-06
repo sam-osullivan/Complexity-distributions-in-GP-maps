@@ -1,5 +1,3 @@
-# tooth-evo-devo
-
 Code steps to generate uniform random sampling of teeth using OPCR and cusp counts as the measurement for complexity:
 
 0. gfortran -O2 -w new_humppa_translate2.f90 -o runt.e
