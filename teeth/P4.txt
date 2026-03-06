@@ -1,0 +1,30 @@
+     0.0210000000000      Egr_Epithelial_proliferation_rate
+   200.0000000000000      Mgr_Mesenchymal_proliferation_rate
+     1.0000000000000      Rep_Repulsion
+     0.0000000000000      Nothing
+     0.0010000000000      ADH_Traction_between_neighbors
+     0.2200000000000      ACT_BMP4_auto-activation
+     1.5000000000000      INH_Inhibtion_of_SHH_over_BMP4
+     0.0000000000000      Nothing
+     0.0300000000000      Sec_FGF4_secretion_rate
+     0.0000000000000      Nothing
+     0.2000000000000      Da_BMP4_diffusion_rate
+     0.2000000000000      Di_SHH_diffusion_rate
+     0.2000000000000      Ds_FGF4_diffusion_rate
+     0.0000000000000      Nothing
+     0.1900000000000      Int_Initial(SHH)_threshold
+     0.9500000000000      Set_secondary(FGF4)_threshold
+     0.1000000000000      Boy_Boyancy_Mesenchyme_mechanic_resistance
+     0.0004000000000      Dff_Differentiation_rate
+     1.0000000000000      Bgr_Border_growth_Amount_of_Mesenchyme_in_AP
+    12.0000000000000      Abi_Anterior_bias
+    18.0000000000000      Pbi_Posterior_bias
+     1.0000000000000      Bbi_Buccal_bias_(invariable_in_seals)
+     1.0000000000000      Lbi_Lingual_bias_(invariable)
+     2.0000000000000      Rad_Radius_of_initial_conditions(2_for_having_7_cells)_(invariable_in_seals)
+     0.1000000000000      Deg_Protein_degradation_rate
+10000.0000000000000      Dgr_Downward_vector_of_growth
+     0.0000100000000      Ntr_Nuclear_atraction_Mechanical_traction_from_the_borders_to_the_nucleus
+     0.8000000000000      Bwi_Width_of_border
+1,2,3,NA,4,5,6,NA,7,NA,8,9,10,NA,11,12,13,14,15,16,17,18,19,NA,20,21,NA
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27
