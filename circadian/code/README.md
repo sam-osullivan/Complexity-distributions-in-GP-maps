@@ -28,7 +28,7 @@ python3 make_0mut_table.py
 7. Mutate parameters
 python3 mutate_params.py --input <input_folder> --output <output_folder> -seed 42
 
-## Plot (d)
+## Code for Plot (d)
 1. Create complexity quintiles
 python3 create_complexity_quintiles.py \ --input <input_table> --output-dir <output_dir> 0--samples-per-group 2000
 
