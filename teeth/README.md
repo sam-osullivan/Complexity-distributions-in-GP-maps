@@ -1,6 +1,6 @@
 # tooth-evo-devo
 
-Code steps to generate uniform random sampling of teeth using OPCR and cusp counts as the measurement for complexity (figures 3a & 4a):
+Code steps to generate uniform random sampling of teeth using OPCR and cusp counts as the measurement for complexity:
 
 0. gfortran -O2 -w new_humppa_translate2.f90 -o runt.e
 1. python3 lhs.py 19000     # This will generate 19000 input .txt files using Latin Hypercube Sampling of the variable genetic and cellular parameters in ToothMaker
