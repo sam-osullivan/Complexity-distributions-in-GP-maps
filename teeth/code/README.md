@@ -27,7 +27,7 @@ Code steps to generate uniform random sampling of teeth using OPCR and cusp coun
 
 To filter teeth by flat-ness, run python3 check_height.py inside the directory containing .off files.
 
-Code steps to generate mutant teeth from parent tooth using OPCR and cusp counts as the measurement for complexity (figures 3b-c & 4b-c):
+Code steps to generate mutant teeth from parent tooth using OPCR and cusp counts as the measurement for complexity:
 1. python3 mut.py P4.txt     #Beginning with parent tooth (for example) P4.txt, this will generate 19000 mutant txt files within specific ranges (see mut.py to alter these ranges) inside ./mutants
 2. python3 make_off_multi.py ./mutants/ ./mutants/      #this will generate a multirun input file to generate teeth in the cluster
 3. copy ./runt.e , ./convert.off.to.ply.py , and ./count_cusp_off into ./mutants
